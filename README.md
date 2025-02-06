@@ -1,4 +1,4 @@
-##基于Nav2与YOLOv5的巡航搜救机器人 课程设计说明文档
+## 基于Nav2与YOLOv5的巡航搜救机器人 课程设计说明文档
 
 小组于12月21日已提交项目相关文档，后于1月4日补充提交了项目的运行视频，望老师知晓
 ![image-20250104202717781](C:\Users\33030\AppData\Roaming\Typora\typora-user-images\image-20250104202717781.png)
@@ -7,7 +7,7 @@
 
 
 
-#####**1.相关包版本**
+##### **1.相关包版本**
 
 Package                                      Version
 ------------------------------------ --------------------
@@ -62,7 +62,7 @@ sudo apt install python3-pip ros-humble-vision-msgs
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple yolov5  
 ```
 
-#####**3.运行指南**
+##### **3.运行指南**
 
 注：为复现项目的正确结果，每个任务的命令是独立的，任务之间不存在必需的命令行执行先后顺序。
 
@@ -83,7 +83,7 @@ cd src/
 ros2 launch robot_description gazebo.launch.py
 ```
 
-######**3.2 建图**
+###### **3.2 建图**
 
 在gazebo中加载机器人与世界模型，并启动Rviz。
 
@@ -104,7 +104,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ros2 run nav2_map_server map_saver_cli -t map -f map
 ```
 
-######**3.3 巡航任务（无需执行完前两步）**
+###### **3.3 巡航任务（无需执行完前两步）**
 
 启动导航包
 
