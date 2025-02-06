@@ -1,0 +1,3 @@
+[console_scripts]
+navigating = yolo_detection.navigating:main
+yolo_detect_2d = yolo_detection.yolo_detect_2d:main

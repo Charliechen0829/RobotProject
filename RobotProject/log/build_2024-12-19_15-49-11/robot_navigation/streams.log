@@ -1,0 +1,28 @@
+[0.618s] Invoking command in '/home/cc/RobotProject/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/RobotProject/install/yolo_detection:/home/cc/RobotProject/install/robot_description:/home/cc/ros2_ws/src/install/yolov5_ros2:/opt/ros/humble /usr/bin/cmake --build /home/cc/RobotProject/build/robot_navigation -- -j8 -l8
+[1.210s] Invoked command in '/home/cc/RobotProject/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/RobotProject/install/yolo_detection:/home/cc/RobotProject/install/robot_description:/home/cc/ros2_ws/src/install/yolov5_ros2:/opt/ros/humble /usr/bin/cmake --build /home/cc/RobotProject/build/robot_navigation -- -j8 -l8
+[1.343s] Invoking command in '/home/cc/RobotProject/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/RobotProject/install/yolo_detection:/home/cc/RobotProject/install/robot_description:/home/cc/ros2_ws/src/install/yolov5_ros2:/opt/ros/humble /usr/bin/cmake --install /home/cc/RobotProject/build/robot_navigation
+[1.376s] -- Install configuration: ""
+[1.376s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/launch
+[1.376s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/launch/navigating.launch.py
+[1.376s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/param
+[1.376s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/param/robot_nav.yaml
+[1.376s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/maps
+[1.376s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/maps/map.pgm
+[1.376s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/maps/map.yaml
+[1.376s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/rviz
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/environment/path.sh
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/environment/path.dsv
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/local_setup.bash
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/local_setup.sh
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/local_setup.zsh
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/local_setup.dsv
+[1.377s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/package.dsv
+[1.377s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation
+[1.378s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake
+[1.378s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake
+[1.378s] -- Up-to-date: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/package.xml
+[1.448s] Invoked command in '/home/cc/RobotProject/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/RobotProject/install/yolo_detection:/home/cc/RobotProject/install/robot_description:/home/cc/ros2_ws/src/install/yolov5_ros2:/opt/ros/humble /usr/bin/cmake --install /home/cc/RobotProject/build/robot_navigation

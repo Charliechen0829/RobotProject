@@ -1,0 +1,21 @@
+[1.106s] Invoking command in '/home/cc/RobotProject/src/robot_description': PYTHONPATH=/home/cc/RobotProject/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/RobotProject/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/cc/RobotProject/build/robot_description/build install --record /home/cc/RobotProject/build/robot_description/install.log --single-version-externally-managed install_data
+[1.523s] running egg_info
+[1.538s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[1.539s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[1.539s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[1.540s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[1.580s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[1.581s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[1.582s] running build
+[1.582s] running build_py
+[1.583s] running install
+[1.587s] running install_lib
+[1.602s] running install_data
+[1.603s] copying urdf/car.urdf -> /home/cc/RobotProject/install/robot_description/share/robot_description/urdf
+[1.604s] copying world/room.world -> /home/cc/RobotProject/install/robot_description/share/robot_description/world
+[1.604s] running install_egg_info
+[1.621s] removing '/home/cc/RobotProject/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.621s] Copying ../../build/robot_description/robot_description.egg-info to /home/cc/RobotProject/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[1.623s] running install_scripts
+[1.701s] writing list of installed files to '/home/cc/RobotProject/build/robot_description/install.log'
+[1.742s] Invoked command in '/home/cc/RobotProject/src/robot_description' returned '0': PYTHONPATH=/home/cc/RobotProject/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/RobotProject/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/cc/RobotProject/build/robot_description/build install --record /home/cc/RobotProject/build/robot_description/install.log --single-version-externally-managed install_data

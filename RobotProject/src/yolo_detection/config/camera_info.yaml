@@ -1,0 +1,20 @@
+header:
+  stamp:
+    sec: 112
+    nanosec: 530000000
+  frame_id: camera_link
+height: 480
+width: 640
+distortion_model: plumb_bob
+d: [0.0, 0.0, 0.0, 0.0, 0.0]
+k: [554.254691191187, 0.0, 320.5, 0.0, 554.254691191187, 240.5, 0.0, 0.0, 1.0]
+r: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+p: [554.254691191187, 0.0, 320.5, -0.0, 0.0, 554.254691191187, 240.5, 0.0, 0.0, 0.0, 1.0, 0.0]
+binning_x: 0
+binning_y: 0
+roi:
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: false

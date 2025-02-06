@@ -1,0 +1,15 @@
+[0.732s] Invoking command in '/home/cc/RobotProject/src/robot_description': PYTHONPATH=/home/cc/RobotProject/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/RobotProject/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/cc/RobotProject/build/robot_description/build install --record /home/cc/RobotProject/build/robot_description/install.log --single-version-externally-managed install_data
+[0.960s] running egg_info
+[0.986s] listing git files failed - pretending there aren't any
+[0.988s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.988s] running build_py
+[0.988s] running install
+[0.989s] running install_lib
+[0.990s] running install_data
+[0.991s] running install_egg_info
+[0.992s] removing '/home/cc/RobotProject/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.992s] Copying ../../build/robot_description/robot_description.egg-info to /home/cc/RobotProject/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[0.993s] running install_scripts
+[1.014s] writing list of installed files to '/home/cc/RobotProject/build/robot_description/install.log'
+[1.041s] Invoked command in '/home/cc/RobotProject/src/robot_description' returned '0': PYTHONPATH=/home/cc/RobotProject/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/RobotProject/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/cc/RobotProject/build/robot_description/build install --record /home/cc/RobotProject/build/robot_description/install.log --single-version-externally-managed install_data

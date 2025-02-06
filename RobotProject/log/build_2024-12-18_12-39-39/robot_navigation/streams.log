@@ -1,0 +1,53 @@
+[0.314s] Invoking command in '/home/cc/RobotProject/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake /home/cc/RobotProject/src/robot_navigation -DCMAKE_INSTALL_PREFIX=/home/cc/RobotProject/install/robot_navigation
+[0.372s] -- The C compiler identification is GNU 11.4.0
+[0.430s] -- The CXX compiler identification is GNU 11.4.0
+[0.437s] -- Detecting C compiler ABI info
+[0.516s] -- Detecting C compiler ABI info - done
+[0.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.517s] -- Detecting C compile features
+[0.518s] -- Detecting C compile features - done
+[0.522s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.613s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.613s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.618s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.343s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.444s] -- Found nav2_bringup: 1.1.17 (/opt/ros/humble/share/nav2_bringup/cmake)
+[1.446s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.535s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.539s] -- Added test 'lint_cmake' to check CMake code style
+[1.540s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.542s] -- Added test 'xmllint' to check XML markup files
+[1.545s] -- Configuring done
+[1.548s] -- Generating done
+[1.549s] -- Build files have been written to: /home/cc/RobotProject/build/robot_navigation
+[1.556s] Invoked command in '/home/cc/RobotProject/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake /home/cc/RobotProject/src/robot_navigation -DCMAKE_INSTALL_PREFIX=/home/cc/RobotProject/install/robot_navigation
+[1.558s] Invoking command in '/home/cc/RobotProject/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake --build /home/cc/RobotProject/build/robot_navigation -- -j8 -l8
+[1.603s] Invoked command in '/home/cc/RobotProject/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake --build /home/cc/RobotProject/build/robot_navigation -- -j8 -l8
+[1.642s] Invoking command in '/home/cc/RobotProject/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake --install /home/cc/RobotProject/build/robot_navigation
+[1.650s] -- Install configuration: ""
+[1.650s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/launch
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/launch/navigating.launch.py
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/param
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/param/robot_nav.yaml
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/maps
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/maps/map.pgm
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/maps/map.yaml
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/rviz
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation
+[1.653s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation
+[1.654s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh
+[1.655s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv
+[1.655s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/environment/path.sh
+[1.655s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/environment/path.dsv
+[1.655s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/local_setup.bash
+[1.656s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/local_setup.sh
+[1.656s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/local_setup.zsh
+[1.656s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/local_setup.dsv
+[1.657s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/package.dsv
+[1.657s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation
+[1.657s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake
+[1.657s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake
+[1.657s] -- Installing: /home/cc/RobotProject/install/robot_navigation/share/robot_navigation/package.xml
+[1.668s] Invoked command in '/home/cc/RobotProject/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake --install /home/cc/RobotProject/build/robot_navigation

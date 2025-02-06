@@ -1,0 +1,49 @@
+[0.314s] Invoking command in '/home/cc/RobotProject/build/robot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake /home/cc/RobotProject/src/robot_mapping -DCMAKE_INSTALL_PREFIX=/home/cc/RobotProject/install/robot_mapping
+[0.373s] -- The C compiler identification is GNU 11.4.0
+[0.434s] -- The CXX compiler identification is GNU 11.4.0
+[0.442s] -- Detecting C compiler ABI info
+[0.520s] -- Detecting C compiler ABI info - done
+[0.524s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.525s] -- Detecting C compile features
+[0.525s] -- Detecting C compile features - done
+[0.529s] -- Detecting CXX compiler ABI info
+[0.615s] -- Detecting CXX compiler ABI info - done
+[0.621s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.621s] -- Detecting CXX compile features
+[0.622s] -- Detecting CXX compile features - done
+[0.625s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.329s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.447s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.535s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.542s] -- Added test 'lint_cmake' to check CMake code style
+[1.543s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.545s] -- Added test 'xmllint' to check XML markup files
+[1.548s] -- Configuring done
+[1.552s] -- Generating done
+[1.553s] -- Build files have been written to: /home/cc/RobotProject/build/robot_mapping
+[1.563s] Invoked command in '/home/cc/RobotProject/build/robot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake /home/cc/RobotProject/src/robot_mapping -DCMAKE_INSTALL_PREFIX=/home/cc/RobotProject/install/robot_mapping
+[1.564s] Invoking command in '/home/cc/RobotProject/build/robot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake --build /home/cc/RobotProject/build/robot_mapping -- -j8 -l8
+[1.605s] Invoked command in '/home/cc/RobotProject/build/robot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake --build /home/cc/RobotProject/build/robot_mapping -- -j8 -l8
+[1.641s] Invoking command in '/home/cc/RobotProject/build/robot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake --install /home/cc/RobotProject/build/robot_mapping
+[1.650s] -- Install configuration: ""
+[1.650s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/config
+[1.650s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/config/map_2d.lua
+[1.650s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/launch
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/launch/mapping.launch.py
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/rviz
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/ament_index/resource_index/package_run_dependencies/robot_mapping
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/ament_index/resource_index/parent_prefix_path/robot_mapping
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/environment/ament_prefix_path.sh
+[1.651s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/environment/ament_prefix_path.dsv
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/environment/path.sh
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/environment/path.dsv
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/local_setup.bash
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/local_setup.sh
+[1.652s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/local_setup.zsh
+[1.653s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/local_setup.dsv
+[1.653s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/package.dsv
+[1.653s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/ament_index/resource_index/packages/robot_mapping
+[1.653s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/cmake/robot_mappingConfig.cmake
+[1.654s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/cmake/robot_mappingConfig-version.cmake
+[1.654s] -- Installing: /home/cc/RobotProject/install/robot_mapping/share/robot_mapping/package.xml
+[1.659s] Invoked command in '/home/cc/RobotProject/build/robot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ros2_ws/src/install/yolov5_ros2:/home/cc/ros2_ws/src/install/ros2_yolov5:/home/cc/ros2_ws/src/install/hello_robot:/opt/ros/humble /usr/bin/cmake --install /home/cc/RobotProject/build/robot_mapping

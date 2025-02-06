@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000327] (-) JobUnselected: {'identifier': 'robot_mapping'}
+[0.000408] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.000438] (-) JobUnselected: {'identifier': 'yolo_detection'}
+[0.000461] (-) EventReactorShutdown: {}

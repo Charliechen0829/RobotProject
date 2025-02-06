@@ -1,0 +1,28 @@
+[1.641s] Invoking command in '/home/cc/RobotProject/src/yolo_detection': PYTHONPATH=/home/cc/RobotProject/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/RobotProject/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/cc/RobotProject/build/yolo_detection/build install --record /home/cc/RobotProject/build/yolo_detection/install.log --single-version-externally-managed install_data
+[2.212s] running egg_info
+[2.232s] writing ../../build/yolo_detection/yolo_detection.egg-info/PKG-INFO
+[2.241s] writing dependency_links to ../../build/yolo_detection/yolo_detection.egg-info/dependency_links.txt
+[2.241s] writing entry points to ../../build/yolo_detection/yolo_detection.egg-info/entry_points.txt
+[2.241s] writing requirements to ../../build/yolo_detection/yolo_detection.egg-info/requires.txt
+[2.241s] writing top-level names to ../../build/yolo_detection/yolo_detection.egg-info/top_level.txt
+[2.300s] reading manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[2.302s] writing manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[2.302s] running build
+[2.302s] running build_py
+[2.304s] copying yolo_detection/yolo_detect_2d.py -> /home/cc/RobotProject/build/yolo_detection/build/lib/yolo_detection
+[2.305s] copying yolo_detection/navigating.py -> /home/cc/RobotProject/build/yolo_detection/build/lib/yolo_detection
+[2.307s] running install
+[2.317s] running install_lib
+[2.345s] copying /home/cc/RobotProject/build/yolo_detection/build/lib/yolo_detection/yolo_detect_2d.py -> /home/cc/RobotProject/install/yolo_detection/lib/python3.10/site-packages/yolo_detection
+[2.347s] copying /home/cc/RobotProject/build/yolo_detection/build/lib/yolo_detection/navigating.py -> /home/cc/RobotProject/install/yolo_detection/lib/python3.10/site-packages/yolo_detection
+[2.351s] byte-compiling /home/cc/RobotProject/install/yolo_detection/lib/python3.10/site-packages/yolo_detection/yolo_detect_2d.py to yolo_detect_2d.cpython-310.pyc
+[2.357s] byte-compiling /home/cc/RobotProject/install/yolo_detection/lib/python3.10/site-packages/yolo_detection/navigating.py to navigating.cpython-310.pyc
+[2.357s] running install_data
+[2.357s] running install_egg_info
+[2.379s] removing '/home/cc/RobotProject/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.381s] Copying ../../build/yolo_detection/yolo_detection.egg-info to /home/cc/RobotProject/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.0-py3.10.egg-info
+[2.390s] running install_scripts
+[2.478s] Installing navigating script to /home/cc/RobotProject/install/yolo_detection/lib/yolo_detection
+[2.478s] Installing yolo_detect_2d script to /home/cc/RobotProject/install/yolo_detection/lib/yolo_detection
+[2.479s] writing list of installed files to '/home/cc/RobotProject/build/yolo_detection/install.log'
+[2.544s] Invoked command in '/home/cc/RobotProject/src/yolo_detection' returned '0': PYTHONPATH=/home/cc/RobotProject/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/RobotProject/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/cc/RobotProject/build/yolo_detection/build install --record /home/cc/RobotProject/build/yolo_detection/install.log --single-version-externally-managed install_data
