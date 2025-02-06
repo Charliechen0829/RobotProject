@@ -1,14 +1,9 @@
-## 基于Nav2与YOLOv5的巡航搜救机器人 课程设计说明文档
+## Cruise search and rescue robot based on Nav2 and YOLOv5
+This project is the final project of the course design for intelligent robots at the School of Artificial Intelligence, South China Normal University
+![image](https://github.com/user-attachments/assets/807df56d-70c1-4bd2-a791-a4aeec27d6e9)
 
-小组于12月21日已提交项目相关文档，后于1月4日补充提交了项目的运行视频，望老师知晓
-![image-20250104202717781](C:\Users\33030\AppData\Roaming\Typora\typora-user-images\image-20250104202717781.png)
-
-运行环境：Ubuntu22.04 + ROS2 humble + python3.10
-
-
-
-##### **1.相关包版本**
-
+##### **1.Related package versions**
+Environment：Ubuntu22.04 + ROS2 humble + python3.10
 Package                                      Version
 ------------------------------------ --------------------
 cartographer-ros-msgs                2.0.9002
@@ -39,34 +34,34 @@ torch                                          2.5.1
 
 yolov5                                       7.0.14
 
-#####**2.必需的安装**
+##### **2.Necessary installation**
 
-cartographer建图相关
+cartographer mapping
 
 ```
 sudo apt install ros-humble-cartographer
 sudo apt install ros-humble-cartographer-ros
-sudo apt install ros-humble-nav2-map-server   # 用于保存地图文件，只运行巡航包可不安装
+sudo apt install ros-humble-nav2-map-server   # Used to save map files, only running the cruise package does not require installation
 ```
 
-nav2导航相关
+nav2 navigation
 
 ```
  sudo apt install ros-humble-nav2-*
 ```
 
-YOLOv5图像识别相关
+YOLOv5 image recognition
 
 ```
 sudo apt install python3-pip ros-humble-vision-msgs
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple yolov5  
 ```
 
-##### **3.运行指南**
+##### **3.Operation Guide**
 
-注：为复现项目的正确结果，每个任务的命令是独立的，任务之间不存在必需的命令行执行先后顺序。
+Hint: To reproduce the correct results of the project, the commands for each task are independent, and there is no necessary command line execution sequence between tasks
 
-将压缩包中RobotProject文件拷贝至~/目录下，在~/RobotProject目录下colcon build并刷新环境变量。
+Copy the RobotProject file from the compressed file to the~/directory, then go to colcon build in the~/RobotProject directory and refresh the environment variables
 
 ```
 cd ~/RobotProject/
@@ -74,57 +69,57 @@ colcon build
 source install/setup.bash
 ```
 
-######**3.1 展示模型**
+###### **3.1 Model presentation**
 
-在gazebo中加载机器人与世界模型
+Loading robots and world models in Gazebo
 
 ```
 cd src/
 ros2 launch robot_description gazebo.launch.py
 ```
 
-###### **3.2 建图**
+###### **3.2 mapping**
 
-在gazebo中加载机器人与世界模型，并启动Rviz。
+Load the robot and world model in Gazebo and start Rviz.
 
 ```
 ros2 launch robot_mapping mapping.launch.py
 ros2 run rviz2 rviz2
 ```
 
-在rviz中添加map的topic，键盘操纵小车在地图中行走直至建成地图全貌。
+Add a map topic in rviz and use the keyboard to control the car to walk on the map until the complete map is created.
 
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-将地图文件保存至本地目录
+Save the map file to the local directory.
 
 ```
 ros2 run nav2_map_server map_saver_cli -t map -f map
 ```
 
-###### **3.3 巡航任务（无需执行完前两步）**
+###### **3.3 Cruise mission (no need to complete the first two steps)**
 
-启动导航包
+Launch navigation package.
 
 ```
 ros2 launch robot_navigation navigating.launch.py
 ```
 
-启动ros2_yolov5包
+Launch the ros_2yolov5 package.
 
 ```
 ros2 run yolo_detection yolo_detect_2d 
 ```
 
-在rqt中观察摄像机话题，添加camera相关plugin，返回的图像识别结果在result_img话题中
+Observe the camera topic in rqt, add camera related plugins, and return the image recognition results in the result_img topic.
 
 ```
 rqt
 ```
 
-最后启动巡航任务节点，即可开始导航任务。
+Finally, activate the cruise task node to start the navigation task.
 
 ```
 ros2 run yolo_detection navigating 
